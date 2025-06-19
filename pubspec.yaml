@@ -1,0 +1,16 @@
+name: flutter_logger
+publish_to: none
+description: A modular logger for Flutter with file output, zipping, uploading, and sharing.
+version: 0.1.0
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+  flutter: ">=1.17.0"
+  
+dependencies:
+  flutter:
+    sdk: flutter
+  path_provider: ^2.1.2
+  intl: ^0.18.1
+  http: ^1.2.1
+  archive: ^3.4.10
+  share_plus: ^7.2.1
